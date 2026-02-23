@@ -30,6 +30,34 @@
     </div>
 
   </div>
+
+  <!-- Modal de detalles -->
+  <div id="pokemon-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-modal" id="close-modal">&times;</span>
+      <img id="modal-img" alt="Pokémon detalle" />
+      <h2 id="modal-name"></h2>
+
+      <div class="modal-info">
+        <p>ID: <span id="modal-id"></span></p>
+        <p>Altura: <span id="modal-height"></span></p>
+        <p>Peso: <span id="modal-weight"></span></p>
+      </div>
+
+      <div class="modal-types" id="modal-types"></div>
+
+      <div class="modal-section">
+        <h3>Habilidades</h3>
+        <div id="modal-abilities"></div>
+      </div>
+
+      <div class="modal-section">
+        <h3>Estadísticas</h3>
+        <div id="modal-stats"></div>
+      </div>
+    </div>
+  </div>
+
   <script type="module" src="./src/main.js"></script>
 
 </body>
